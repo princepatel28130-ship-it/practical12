@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.app {
+  text-align: center;
+  padding: 25px;
+}
+
+h1 {
+  color: #2563eb;
+}
+
+nav {
+  background-color: #2563eb;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 17px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.content {
+  background-color: white;
+  padding: 25px;
+  margin: 25px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.order-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.order-links a {
+  background-color: #16a34a;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.order-links a:hover {
+  background-color: #15803d;
+}
+
+.order-content {
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+}
